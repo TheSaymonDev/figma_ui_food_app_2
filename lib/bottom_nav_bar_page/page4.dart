@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:food_app_2/colors/my_color.dart';
+
+class Page4 extends StatefulWidget {
+  const Page4({Key? key}) : super(key: key);
+
+  @override
+  State<Page4> createState() => _Page4State();
+}
+
+class _Page4State extends State<Page4> {
+  @override
+  Widget build(BuildContext context) {
+    return  Scaffold(
+      backgroundColor: scaffoldClr,
+      body: Center(
+        child: Text('Profile Page'),
+      ),
+    );
+  }
+}
